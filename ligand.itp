@@ -1,0 +1,39 @@
+[moleculetype]
+; molname       nrexcl
+  LIG          1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   	P5      1       LIG     P5     1        0
+  2   	C1      1       LIG     C1     2        0
+  3     C1      1       LIG    	C2     3        0
+  4     Qa      1       LIG     Qa     4        -1.0
+
+[bonds]
+; i j   funct   length  force.c.
+  1 2   1       0.470   1250
+  2 3   1       0.470   1250
+  3 4   1       0.470   1250
+
+[angles]
+; i j k         funct   angle   force.c.
+  1 2 3         2       180.0   25.0
+
+
+[moleculetype]
+; molname       nrexcl
+  LSP          1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   	P5      1       LSP     P5     1        0
+  2   	C1      1       LSP     C1     2        0
+  3     C1      1       LSP     C2     3        0
+  4     C1      1       LSP     C3     4        0
+
+[bonds]
+; i j   funct   length  force.c.
+  1 2   1       0.470   1250
+  2 3   1       0.470   1250
+  3 4   1       0.470   1250
+
