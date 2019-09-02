@@ -1,0 +1,3 @@
+gmx grompp -f minimization.mdp -c striped_CG.gro -p NP_striped.top -maxwarn 10 -o new.tpr
+
+gmx mdrun -deffnm new -v -c new.gro

@@ -1,0 +1,11 @@
+#include "martini_v2.1.itp"
+#include "martini_v2.0_lipids.itp"
+#include "martini_chol_hinge_p30.itp"
+#include "martini_v2.0_ions.itp"
+#include "striped.itp"
+
+[SYSTEM]
+RANDOM
+
+[ molecules ]
+NP	    1
